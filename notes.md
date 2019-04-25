@@ -8,3 +8,13 @@ adjust scripts
 (Heroku wants the start command)
 **"start": "node index.js"**
 
+
+screaming_snake_case for .env files
+.env changes are **not reflected until you restart the server**.
+nodemon wont do it for me.
+
+Environments:
+
+-development
+-staging/testing
+-production
